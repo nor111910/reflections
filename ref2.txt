@@ -1,0 +1,39 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	git inits the repo with .git metadata
+	to set the master repo 
+------------------------------------------------
+WN5741 reflections $ git init
+Initialized empty Git repository in C:/Users/Public/documents/Training/FrontEndDeveloper/GIT/reflections/.git/
+WN5741 (master #) reflections $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ref.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+------------------------------------------------
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	the stg holds the fils prior to commit. the working dir is the file location. it lets git know what files to keep track of.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+
