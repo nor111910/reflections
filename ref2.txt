@@ -26,14 +26,26 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	I can make my changes add them to stage. when I am done with the changes, I can commit them to the Repo as a unit of change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	Branches would be helpful if I wanted two version of the code.
 
 How do the diagrams help you visualize the branch structure?
+
+	they can show the parent of the branch and any path to other branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The chenges of one branch are made to the master branch.  
+	To show parent relationships.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+	pro: a lot of the work is done by git
+	con: git may not pick the correct merge 
 
